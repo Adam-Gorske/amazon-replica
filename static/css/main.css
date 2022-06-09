@@ -1,0 +1,52 @@
+body {
+    font-family: ubuntu;
+}
+
+input {
+    display: block;
+    background-color: #E8F0FE;
+    width: 80%;
+    box-sizing: border-box;
+    text-align: center
+    
+}
+
+div {
+    text-align: center;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+    
+     
+}
+
+.sign-in {
+    align-items: center;
+    margin: 0 30% 0 30%;
+    border: 1px solid #b6b6b6;
+    border-radius: 5px; 
+}
+
+.sign-in-text {
+
+}
+
+.email-enter {
+    text-align: center;
+}
+
+.email-container {
+    width: 100%;
+}
+
+.button-continue {
+    display: block;
+    background-color: yellow;
+    width: 100%;
+    box-sizing: border-box;
+
+}
