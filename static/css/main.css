@@ -1,3 +1,4 @@
+
 body {
     font-family: ubuntu;
 }
@@ -31,7 +32,7 @@ button:hover {
 }
 
 h1 {
-    font-size: 24pt;
+    font-size: 2rem;
     font-weight: normal;
     margin: 5% 0%;
     padding-left: 0;
@@ -45,7 +46,7 @@ h2 {
     line-height: 0.1em;
     margin-top: 25px;
     text-decoration: none;
-    font-size: 8pt;
+    font-size: 1rem;
     margin-left: 33.3%;
     color: rgb(154, 153, 153);
 } 
@@ -153,4 +154,9 @@ a:hover {
     background: radial-gradient(circle, rgba(223,226,232,1) 35%, rgba(243,248,249,1) 100%);
     padding-top: 10px;
     padding-bottom: 30px;
+}
+
+.email-flex {
+    display: flex;
+    justify-content: space-between
 }
